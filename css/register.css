@@ -1,0 +1,70 @@
+#header,#section{
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+#header{
+    margin-top: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+#header>b{
+    font-size: 35px;
+    margin-left: 30px;
+}
+#video{
+    width: 1000px;
+    height: 600px;
+}
+#section{
+    text-align: center;
+    position: relative;
+}
+#v1{
+    margin-top:10%;
+}
+#section .form_group{
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 144px;
+    font-size: 20px;
+}
+#name,#pwd,#pwdd{
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+}
+#form_reg{
+    padding-top: 80px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: rgba(255,255,255,.7);
+    width: 80%;
+    height: 280px;
+}
+.btn{
+    width: 212px;
+    height: 38px;
+    background: #e4393c;
+    font-size: 15px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+#form_reg label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.succ{
+    color: #0f0;
+}
+.error{
+    color: #f00;
+}
+.register_succ{
+    color: #f00;
+	font-size: 35px;
+}

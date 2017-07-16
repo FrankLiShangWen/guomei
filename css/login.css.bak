@@ -1,0 +1,125 @@
+#header,#section{
+margin: 0 auto;
+padding: 0;
+width: 1200px;
+}
+#header{
+	margin-top: 30px;
+	height: 50px;
+	line-height: 50px;
+	
+}
+#header>b{
+	font-size: 35px;
+	margin-left: 30px;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	vertical-align: top;
+}
+#header>i{
+	background: url(../image/ui.png) no-repeat 0 -970px;
+	display: inline-block;
+	height: 55px;
+	width: 170px;
+}
+#section{
+	background:#DE0005;
+	width:100%;
+}
+#section>.bg{
+	margin:0 auto;
+	width:1000px;
+	height:470px;
+	background:url(../image/login.gif) no-repeat;
+	position:relative;
+}	
+.login{
+	position:absolute;
+	height:400px;
+	width:300px;
+	background:rgba(255,255,255,1);
+	right:-4%;
+	top:7%;
+}
+.form_group{
+	text-align:center;
+	margin:20px;
+}
+.form_group>input{
+	width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+
+}
+#btnLogin,#btnRegister{
+	width: 210px;
+	color:#fff;
+}
+#btnRegister{
+	background:#61B8B9;
+	border:0;
+}
+#btnLogin{
+	background:#FF5757;
+	border:0;
+}
+/*login_icon.png*/
+.otherLogin>a{
+	display:inline-block;
+	height:22px;
+	width:22px;
+}
+.otherLogin>a:first-child{
+	background:url(../image/login_icon.png) no-repeat -280px 0;
+}
+.otherLogin>a:first-child:hover{
+	background:url(../image/login_icon.png) no-repeat -280px -24px;
+}
+.otherLogin>a:nth-child(2){
+	background:url(../image/login_icon.png) no-repeat -308px 0;
+}
+.otherLogin>a:nth-child(2):hover{
+	background:url(../image/login_icon.png) no-repeat -308px -24px;
+}
+.otherLogin>a:nth-child(3){
+	background:url(../image/login_icon.png) no-repeat 0 0;
+}
+.otherLogin>a:nth-child(3):hover{
+	background:url(../image/login_icon.png) no-repeat 0 -24px;
+}
+.otherLogin>a:nth-child(4){
+	background:url(../image/login_icon.png) no-repeat -28px 0;
+}
+.otherLogin>a:nth-child(4):hover{
+	background:url(../image/login_icon.png) no-repeat -28px -24px;
+}
+.otherLogin{
+	margin-top: 25px;
+    margin-left: 134px;
+}
+.gm_login_regsiter{
+    padding: 6px 41px;
+    margin: 7px;
+}
+.gm_login_regsiter{
+	color: #5E5E5E;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 13px;
+	text-align: center;
+}
+.prompt{
+	color: #f00;
+    margin: 0 auto;
+    width: 216px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+}
+.prompt_activ{
+	
+	background: #FFEEEE;
+}

@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul>li{
+    list-style: none;
+}
+#header,#nav,#section,#footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+#section{
+    background: #F3F3F3;
+    width: 100%;
+}
+
+
+#cashier_desk,#order{
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+#cashier_desk{
+    margin-top: 30px;
+    height: 50px;
+    line-height: 50px;
+
+}
+#cashier_desk>b{
+    font-size: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+}
+#cashier_desk>a{
+    background: url(../image/ui.png) no-repeat 0 -970px;
+    display: inline-block;
+    height: 55px;
+    width: 170px;
+}
+.order_detail{
+    min-height: 100px;
+    padding-top: 30px;
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+.order_id,.order_money,.two_dimension_code{
+    float: left;
+}
+.order_id{
+    font-weight: bold;
+    color: #5E5E67;
+    padding-left: 20px;
+}
+.order_money{
+    margin-left: 15%;
+    text-align: right;
+}
+.order_money_sum{
+    font-size: 15px;
+    color: #5E5E5E;
+}
+.order_money_sum>span{
+    font-size: 20px;
+    color: #D10311;
+    font-weight: bold;
+}
+.order_detail_look{
+    margin-top: 10px;
+    color: #006699;
+    font-size: 14px;
+    cursor: pointer;
+}
+.order_detail_look_i{
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    background: url("../image/result_src.png") no-repeat -241px -7px;
+}
+
+.two_dimension_code{
+    margin-left: 87px;
+    margin-top: -80px;
+    position: relative;
+}
+.zfb{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.user_detail{
+    padding-left: 20px;
+}
+.user_detail>span{
+    font-size: 13px;
+    color: #5E5E5E;
+}
+.order_number{
+    float: left;
+}
+.order_product{
+    float: left;
+    margin-left: 20px;
+}
+.order_xiangqing{
+    padding-left: 20px;
+    content: "";
+    display: table;
+    clear: both;
+    font-size: 14px;
+    color: #5E5E5E;
+    margin-top: 23px;
+
+}
+.order_product tr>td{
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+.user_order_detail{
+    display: none;
+}
+.active{
+    display: block;
+}
+.bg_active{
+    background: url("../image/result_src.png") no-repeat -241px 0;
+}
+#pay{
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 300px;
+    background: #fff;
+    border-top: 5px solid #F85964;
+}
+.pay_body {
+    border: 3px solid #F85964;
+    min-height: 300px;
+    margin-left: 5%;
+    width: 900px;
+    margin-top: 30px;
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+.pay_title{
+   padding-left: 20px;
+    padding-top: 20px;
+}
+.pay_title>b{
+
+}
+.pay_title>span{
+    color: #888888;
+    font-size: 14px;
+}
+.pay_title>i{
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    background: url("../image/result_src.png") no-repeat -226px -16px;
+}
+.pay_input{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.pay_input>input{
+    height: 50px;
+    width: 400px;
+    padding-left: 35px;
+    background: url("../image/mf_ck.png") no-repeat 4px 17px;
+}
+
+.pay_input>button{
+    width: 120px;
+    height: 50px;
+    border: 0;
+    background: #F85964;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1px;
+}
+.bank_toggle{
+    color: #006699;
+    font-size: 14px;
+    padding: 17px;
+    cursor: pointer;
+}
+.bank_icon{
+    display: inline-block;
+    height: 7px;
+    width: 12px;
+    background: url("../image/result_src.png") no-repeat -243px -47px;
+}
+.bank_choise{
+    padding: 20px 13px;
+    /*display: none;*/
+}
+.bank_choise_img{
+    border: 1px solid #ddd;
+    padding: 4px 35px;
+}
+.bank_choise li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-bottom: 12px;
+    position: relative;
+}
+.choise_car{
+    position: absolute;
+    top: 50px;
+    left: 8px;
+    z-index: 100;
+}
+.choise_car>span>input{
+    cursor: pointer;
+}
+.choise_car>span:first-child{
+    background: #F85964;
+}
+.choise_car>span:last-child{
+    background: #FFB468;
+
+}
+.choise_car>span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    width: 101px;
+    cursor: pointer;
+}
+.bank_choise b{
+    display: inline-block;
+    border: 1px solid #FFD2D2;
+    height: 50px;
+    line-height: 50px;
+    width: 202px;
+    margin-left: 8px;
+    text-align: center;
+    color: #D10311;
+}
+.border_active{
+    border-color: #F85964;
+}
+.immediately_pay{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.immediately_pay_btn{
+    margin-left: 60px;
+    height: 50px;
+    width: 213px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    background: #DD424D;
+    border: 0;
+    cursor: pointer;
+}
+.pay_way{
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #fff;
+    padding-left: 106px;
+}
+.pay_style{
+    font-size: 19px;
+    margin-right: 30px;
+}
+.pay_explian{
+    color: #888888;
+    font-style: normal;
+}
+.pay_go{
+    float: right;
+    margin-right: 60px;
+    display: none;
+}
+.pay_way:hover .pay_go{
+    display: block;
+}
+.pay_je{
+    font-size: 15px;
+    color: #888888;
+}
+.pay_price{
+    font-size: 23px;
+    color: #D10311;
+    font-weight: bold;
+}
+.pay_btn{
+    height: 40px;
+    width: 120px;
+    border: 0;
+    background: #DD424D;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 22px;
+}
+
+

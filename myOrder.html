@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link rel="stylesheet" href="css/myorder.css"/>
+
+<body>
+    <header id="header"></header>
+    <section id="section">
+        <div id="order">
+            <a href="guomei.html"></a><b>订单信息</b>
+        </div>
+        <div class="receiver">
+            <p class="order_receiver">收货人信息</p>
+            <div class="receiver_content">
+                <a class="order_name" href="#">
+                    <span></span>
+                    <i></i>
+                </a>
+                <span class="consignee_addr"></span>
+                <span class="order_phone"></span>
+                <span class="order_addr">默认地址</span>
+                <span class="order_update">修改</span>
+            </div>
+            <p class="pay">支付方式</p>
+            <div class="pay_choice">
+                <div pay="1">在线支付 <i></i> <u></u></div>
+                <div pay="2">货到付款 <i></i> <u></u></div>
+                <div pay="3">信用分期 <i></i> <u></u></div>
+                <div pay="4">公司转账 <i></i> <u></u></div>
+                <div pay="5">邮局付款 <i></i> <u></u></div>
+                <div pay="6">门店付款 <i></i> <u></u></div>
+            </div>
+            <p class="deliver_order">送货清单</p>
+            <div class="deliver_explian">
+                <p>大家电配送时部分偏远地区需额外收取远程费 <a href="#">查看详情 ></a></p>
+                <a href="#" class="price_explian">价格说明</a>
+                <a href="shopping_car.html" class="return_update">返回购物车修改</a>
+            </div>
+            <div class="dispatching">
+                <div class="dispatching_header">
+                    <h4>配送信息</h4><h4>国美自营</h4>
+                </div>
+                <div class="dispatching_body">
+                    <div class="dispatching_body_left">
+                        <p class="dispatching_way">配送方式  <a href="#">对应商品</a></p>
+                        <div class="gm_fast_mail">国美快递 <i></i></div>
+                        <div class="dispatching_time">
+                            配送时间： <i></i> 指定送货时间
+                            <input type="date"/>
+                        </div>
+                        <p class="dispatching_way two">配送方式  <a href="#">对应商品</a></p>
+                        <div class="gm_fast_mail">国美快递 <i></i></div>
+                        <div class="dispatching_time_choise">
+                            <span>配送时间:</span>
+                            <ul>
+                                <li> <i class="btn_choise active"></i>工作日送</li>
+                                <li> <i class="btn_choise "></i>双休日、假日送</li>
+                                <li> <i class="btn_choise"></i>工作日、双休日、假日</li>
+                            </ul>
+                        </div>
+                        <p class="remarks">
+                            <span>备注:</span>
+                            <input type="text" maxlength="30" placeholder="最多输入30个字"/>
+                        </p>
+                    </div>
+                    <div class="dispatching_body_right">
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="receipt">
+                <h4 class="receipt_detailed">发票信息</h4>
+                <div class="receipt_content">
+                    <span class="receipt_name">胡峰</span>
+                    <span>电子发票</span>
+                    <span>明细</span>
+                    <a href="#">修改</a>
+                </div>
+            </div>
+            <div class="pay_money">
+                <span>应付款总金额：</span>
+                <span class="pay_money_price"></span>
+                <button class="pay_btn">提交订单</button>
+            </div>
+            <div class="addr">
+                <p class="addr_content">广东省 深圳市 龙岗区 龙城街道 横岗，五联社区朱古石，深圳市八达通智能管网系统有限公司</p>
+                <p class="user_content">
+                    <span>胡峰</span>
+                    <span>186****2464</span>
+                </p>
+            </div>
+
+        </div>
+        <div class="model">
+            <div class="model_content">
+                <sapn class="cha">&times;</sapn>
+                <form id="form">
+                    <p class="err_message"></p>
+                    <div class="form-graop">
+                        <label class="graop" for="name"><span>*</span>收货人：</label>
+                        <input type="text" name="name" id="name"/>
+                    </div>
+                    <div class="form-graop">
+                        <label class="graop" for="addr"><span>*</span>收货地址：</label>
+                        <input type="text" name="addr" id="addr"/>
+                    </div>
+                    <div class="form-graop">
+                        <label class="graop" for="phone"><span>*</span>联系电话：</label>
+                        <input type="text" name="phone" id="phone"/>
+                    </div>
+                    <div class="form-graop">
+                        <label class="graop" name="email" for="email">邮件地址：</label>
+                        <input type="text" id="email"/>
+                    </div>
+                    <button class="btn_register">保存收货地址</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/myorder.js"></script>
+</body>
+</html>

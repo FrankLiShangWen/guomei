@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Helvatica Neue';
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+.container {
+  margin: 0 auto;
+}
+.container:before {
+  content: ' ';
+  display: table;
+}
+.container:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.navbar {
+  height: 50px;
+}
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 50px;
+}
+.navbar-right {
+  float: right;
+}
+.navbar-nav {
+  list-style: none;
+}
+.navbar-nav li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.navbar-toggle {
+  padding: 4px 6px;
+  position: relative;
+  display: none;
+}
+.navbar-toggle .icon-bar {
+  display: inline-block;
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  background: #333;
+  margin-top: 10px;
+  margin-left: -30px;
+}
+.navbar-toggle .icon-bar:nth-child(2){
+  top: 12px;
+}
+.navbar-toggle .icon-bar:nth-child(3){
+  top: 21px;
+}
+/*@media screen and (min-width: 768px){
+  .navbar-toggle {
+    display: none;
+  }
+}*/
+.img-responsive {
+  display: block;
+  /*max-width: 100%;*/
+  width: 100%;
+}
+.col {
+  float: left;
+  padding: 4px;
+}
+
+
+/*超大PC屏幕专用样式*/
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .col {
+    width: 25%;
+  }
+}
+/*中等PC屏幕专用样式*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+  .col {
+    width: 25%;
+  }
+}
+/*PAD屏幕专用样式*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  .col {
+    width: 50%;
+  }
+}
+/*PHONE屏幕专用样式*/
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .col {
+    width: 100%;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+}
+

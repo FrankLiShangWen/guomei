@@ -1,0 +1,138 @@
+#section{
+	width:1200px;
+	min-height:500px;
+}
+#header{
+	/* content:"";
+	display:table; */
+}
+#header .hot_word>a{
+	margin:8px;
+}
+/*#header .shopping_paernt .shopping_car>a{*/
+	/*margin-top:-43px;*/
+/*}*/
+#nav .shopping_car>a{
+    display: inline-block;
+    width: 111px;
+    height: 39px;
+    float: right;
+    padding-top: 0px;
+    padding-right: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+#nav{
+	position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+	background:#fff;
+}
+#nav .search{
+	background:#fff;
+}
+#product li{
+	float:left;
+	width:290px;
+	height:480px;
+	border:1px solid #ddd;
+	padding:10px;
+	margin:5px;
+}
+/* #product li:hover{
+	border-color:#ddd;
+	transition: all 0.2s linear;
+    transform: scale(1.01);
+} */
+#product li h3{
+	color:#f00;
+}
+#product li>p>a{
+	color:#f00;
+}
+.dizhi a{
+	float:left;
+	/*color:#0079C2;*/
+}
+.dizhi span{
+	float:right;
+	margin-right: 27px;
+}
+.dizhi{
+	width:300px;
+	content:"";
+	display:table;
+	margin-bottom:10px;
+}
+.add_car a{
+	float:right;
+	display:inline-block;
+	border:1px solid #ddd;
+	padding:10px;
+}
+.add_car a:first-child{
+	color:#f00;
+}
+.ziying{
+	height:30px;
+	margin-top:60px;
+}
+#product li:hover .ziying span{
+	display:block;
+}
+#product{
+	content:"";
+	display:table;
+	margin-top: 130px;
+}
+#page a{
+	border: 1px solid #ddd;
+	padding: 9px 14px;
+	border-radius: 3px;
+	background: #eee;
+	float:right;
+	margin-left: 5px;
+}
+#page a:hover{
+	color: #f00;
+	text-decoration: none;
+}
+#page{
+	content: "";
+	display: table;
+	width: 1200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#page .active{
+	background-color: #fff;
+}
+/*#end{*/
+	/*position: absolute;*/
+    /*top: 40px;*/
+    /*right: 450px;*/
+/*}*/
+.product_count{
+	position: absolute;
+    top: 8px;
+    text-decoration: none;
+    background: #fff;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #f00;
+}
+#header{
+	position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    background: #fff;
+}
+.shopping_car{
+	position:relative;
+}
+
+
+

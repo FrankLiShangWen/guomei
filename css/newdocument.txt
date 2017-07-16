@@ -1,0 +1,15 @@
+#section{
+	width:1200px;
+	min-height:500px;
+	border:1px solid #000;
+}
+#header{
+	content:"";
+	display:table;
+}
+#header .hot_word>a{
+	margin:0px;
+}
+#header .shopping_paernt .shopping_car>a{
+	margin-top:-43px;
+}

@@ -1,0 +1,16 @@
+<?php
+header("Content-Type:text/plian");
+@$consigneeId = $_REQUEST['consigneeId'] or die('{"msg":2,"consigneeId":"require"}');
+@$cname = $_REQUEST['cname'] or die('{"msg":3,"cname":"require"}');
+@$phone = $_REQUEST['phone'] or die('{"msg":4,"phone":"require"}');
+@$addr = $_REQUEST['addr'] or die('{"msg":5,"addr":"require"}');
+@$email =$_REQUEST['email'];
+
+require("0_init.php");
+$sql = "INSERT INTO consignee_message VALUES(NULL,'$consigneeId','$cname','$phone','$addr','$email')";
+$result = mysqli_query($conn,$sql);
+if($result==true){
+	echo "succ";
+}else{
+	echo "err";
+}
